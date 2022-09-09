@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- BOX ICONS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Hadi Ahmed CV</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <a href="" class="nav__logo">hadi</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="bx bx-home nav__icon"></i>Home
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#profile" class="nav__link">
+                <i class="bx bx-user nav__icon"></i>Profile
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#education" class="nav__link">
+                <i class="bx bx-book nav__icon"></i>Education
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="bx bx-receipt nav__icon"></i>Skills
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#experience" class="nav__link">
+                <i class="bx bx-briefcase nav__icon"></i>Projects
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-grid-alt"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main bd-container">
+      <!-- All elements within this div, are generated in PDF -->
+      <div class="resume" id="area-cv">
+        <div class="resume__left">
+          <!-- HOME -->
+          <section class="home" id="home">
+            <div class="home__container section bd-grid">
+              <div class="home__data bd-grid">
+                <img src="assets/img/me4.png" alt="" class="home__img" />
+
+                <h1 class="home__title"><b>Hadi</b> Ahmed Hadi Sofan</h1>
+                <h3 class="home__profession">Full Stack web Developer</h3>
+
+                <div>
+                  <a href="/assets/pdf/CV_Hadi_ahmed.pdf" download="CV_Hadi_ahmed" class="home__button-mobile">Download</a>
+                </div>
+              </div>
+
+              <div class="home__address bd-grid">
+                <span class="home__information">
+                  <i class="bx bx-map home__icon"></i> Yemen, Sana'a
+                </span>
+                <span class="home__information">
+                  <i class="bx bx-envelope home__icon"></i>
+                  <a
+                    href="mailto:sofantech22@gmail.com"
+                    target="_blank"
+                    class="social__link"
+                    >sofantech22@gmail.com</a
+                  >
+                </span>
+                <span class="home__information">
+                  <i class="bx bx-phone home__icon"></i>
+                  <a
+                    href="tel:+967777604785"
+                    target="_blank"
+                    class="social__link"
+                    >(00967) 777-604-785</a
+                  >
+                </span>
+              </div>
+            </div>
+            <!-- Theme change button -->
+            <i
+              class="bx bx-moon change-theme"
+              title="Theme"
+              id="theme-toggle"
+            ></i>
+
+            <!-- Button to generate and download the pdf. Available for desktop. -->
+            <i
+              class="bx bx-download generate-pdf"
+              title="Generate PDF"
+              id="resume-button"
+            ></i>
+          </section>
+
+          <!-- SOCIAL -->
+          <section class="social section">
+            <h2 class="section-title">SOCIAL</h2>
+
+            <div class="social__container bd-grid">
+              <a
+                href="https://github.com/sofantech"
+                target="_blank"
+                class="social__link"
+              >
+                <i class="bx bxl-github social__icon"></i> https://github.com/sofantech
+              </a>
+              <a
+                href="https://www.linkedin.com/in/hadi-ahmed-76b7211b4/"
+                target="_blank"
+                class="social__link"
+              >
+                <i class="bx bxl-linkedin-square social__icon"></i> @hadi-ahmed
+              </a>
+              <a
+                href="https://portfoliohadi.herokuapp.com/"
+                target="_blank"
+                class="social__link"
+              >
+                <i class="bx bx-globe social__icon"></i>
+                https://portfoliohadi.herokuapp.com/
+              </a>
+            </div>
+          </section>
+
+          <!-- PROFILE -->
+          <section class="profile section" id="profile">
+            <h2 class="section-title">Professional Profile</h2>
+
+            <p class="profile__description">
+              Full Stack Web Developer working with a lot of programming language and frameworks  with over 1 year of experience in both Back
+              End — or server side — of the website as well as the Front End, or client
+              side development with some skills in a wide variety of coding niches,
+              from databases to graphic design , UI/UX management and write clean
+              code
+            </p>
+          </section>
+
+          <!-- EDUCATION -->
+          <section class="education section" id="education">
+            <h2 class="section-title">Education</h2>
+
+            <div class="education__container bd-grid">
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <span class="education__line"></span>
+                </div>
+
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">
+                    Web Full Stack Bootcamp   
+                  </h3>
+                  <span class="education__studies"
+                    >Rowad Coding Academy</span
+                  >
+                  <span class="education__year">2022</span>
+                </div>
+              </div>
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <span class="education__line"></span>
+                </div>
+
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">
+                    Analysis & Project Managment (Scrum/Agile)  
+                  </h3>
+                  <span class="education__studies"
+                    >Rowad Coding Academy</span
+                  >
+                  <span class="education__year">2022</span>
+                </div>
+              </div>
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <span class="education__line"></span>
+                </div>
+
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">
+                    Bachelor Degree - Computer Science 
+                  </h3>
+                  <span class="education__studies">Sana'a University</span>
+                  <span class="education__year">2021</span>
+                </div>
+              </div>
+
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <span class="education__line"></span>
+                </div>
+
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">
+                    Diploma Degree - Android Programing   
+                  </h3>
+                  <span class="education__studies"
+                    >New Azar Institute</span
+                  >
+                  <span class="education__year">2020</span>
+                </div>
+              </div>
+
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <!-- <span class="education__line"></span> -->
+                </div>
+
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">High-School Degree</h3>
+                  <span class="education__studies"
+                    >Imam Ali bin Abi Talib School | haja | kohlan-afar</span
+                  >
+                  <span class="education__year">2003 - 2014</span>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- SKILLS  -->
+          <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills__content bd-grid">
+              
+              <ul class="skills__data">
+                <h3>client side</h3>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> HTML5
+                  <i class="bx bxl-html5"></i>
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> CSS
+                  <i class="bx bxl-css3"></i>
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> JavaScript
+                  <i class="bx bxl-javascript"></i>
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> VueJs
+                  <i class="bx bxl-vuejs"></i>
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> TypeScript
+                  <i class="bx bx-code-alt"></i>
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> Tailwind
+                  <i class="bx bx-code"></i>
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> Bootstrap
+                  <i class="bx bxl-bootstrap"></i>
+                </li>
+              </ul>
+              <ul class="skills__data">
+                <h3>server side</h3>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> Php
+                  <i class="bx bxl-php"></i>
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> Laravel
+                  <i class="bx bx-code"></i>
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> NodeJS
+                  <i class="bx bxl-nodejs"></i>
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> Mysql
+                  <i class="bx bx-data"></i>
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> MongoDB
+                  <i class="bx bxl-mongodb"></i>
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> Firebase
+                  <i class="bx bxl-firebase"></i>
+                </li>
+              </ul>
+              <ul class="skills__data">
+                <h3>Development & Operations</h3>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> Unit Test
+                  <i class="bx bxl-pinterest"></i>
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> Agile
+                  <i class="bx bx-code-block"></i>
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> Scrum
+                  <i class="bx bx-code-block"></i>
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> Git
+                  <i class="bx bxl-git"></i>
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> Github
+                  <i class="bx bxl-github"></i>
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> Plesk
+                  <i class="bx bx-code-block"></i>
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> cpanel
+                  <i class="bx bx-code-block"></i>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+
+        <div class="resume__right">
+          <!-- EXPERIENCE -->
+          <section class="experience section" id="experience">
+            <h2 class="section-title">Projects</h2>
+
+            <div class="experience__container bd-grid">
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">SofanTec Website</h3>
+                  <span class="experience__company"
+                    >From 07/2021 To 08/2021 | Gorilla Logic</span
+                  >
+                  <span class="experience__company"
+                    >Link: <a href="https://sofantech.github.io/SofanTec_Company/">SofanTec</a></span
+                  >
+                  <p class="experience__description">
+                    SofanTec is a website to define the services I provide in website
+                    programming that was created at the beginning of my work as an
+                    freelancer website developer
+                  </p>
+                </div>
+              </div>
+              
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+            
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">E-Library website</h3>
+                  <span class="experience__company">From 01/2021 To 17/01/2021</span>
+                  <span class="experience__company">Link: <a
+                      href="https://sofantech.github.io/E-library-project/home">E-library</a></span>
+                  <p class="experience__description">
+                    An E-library website to display, download and sell books and novels
+                    Techniques used:html5 , css3 , js
+                  </p>
+                </div>
+              </div>
+
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+            
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">Job Search Website</h3>
+                  <span class="experience__company">From 02/2022 To 03/02/2022</span>
+                  <span class="experience__company">Link: <a
+                      href=" https://sofantech.github.io/jop-Search-project/">Job Search Website</a></span>
+                  <p class="experience__description">
+                    that facilitates the search for jobs
+                    Techniques used:html5 , css3 , js
+                  </p>
+                </div>
+              </div>
+
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+            
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">alamjadwebsite</h3>
+                  <span class="experience__company">From 03/2022 To 18/03/2022 </span>
+                  <span class="experience__company">Link: <a
+                      href="https://alamjad.herokuapp.com/">alamjadwebsite</a></span>
+                  <p class="experience__description">
+                    portfolio website for a restaurants
+                    Techniques used:html5 , css3 , js , swiper.js
+                  </p>
+                </div>
+              </div>
+
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+            
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">Portfolio Website</h3>
+                  <span class="experience__company">From 03/2022 To 27/03/2022</span>
+                  <span class="experience__company">Link: <a
+                      href="https://portfoliohadi.herokuapp.com/">Portfolio Website</a></span>
+                  <p class="experience__description">
+                    My Portfolio Website
+                    Techniques used:html5 , css3 , js , swiper.js,nodejs,mongoDb
+                  </p>
+                </div>
+              </div>
+
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+            
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">Wasl Payment Gateway</h3>
+                  <span class="experience__company">From 05/2022 To 06/2022</span>
+                  <span class="experience__company">Link: <a
+                      href="https://waslpayment.com/">Wasl Payment Gateway</a></span>
+                  <p class="experience__description">
+                    website that provides electronic payment services
+                    --This project was my graduation project from Rowad Academy that I
+                    and four of my colleagues worked on
+                    --The site offers electronic payment solutions where merchants or
+                    owners of electronic stores can receive payments by facilitating the
+                    electronic payment process for site visitors and potential customers
+                    --The merchant can follow up on the sales of his store, as well as sales
+                    invoices and accounting entries for each financial transaction and
+                    --the balance, as well as transferring money to other accounts
+                    --The customer can view the bank balance as well as his purchases
+                    from electronic stores and purchase invoices, as well as the
+                    calculations for transferring money between accounts
+                  </p>
+                </div>
+              </div>
+
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+            
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">Syniar WebSite</h3>
+                  <span class="experience__company">From 08/2022 To 09/2022</span>
+                  <span class="experience__company">Link: <a
+                      href="https://www.sinyar.alsuhaibi96.com/en">Syniar WebSite</a></span>
+                  <p class="experience__description">
+                    CMS Website Developed For a Saudi Company called Syniar
+                    html , css , js , php , laravel , Voyager , mysql
+                  </p>
+                </div>
+              </div>
+
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+            
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">e-Commerce WebSite</h3>
+                  <span class="experience__company">From 08/2022 To right Now</span>
+                  <span class="experience__company">Link: <a
+                      href="#">We haven't finished developing it</a></span>
+                  <p class="experience__description">
+                    An online store with multiple merchants and stores, are still working on it
+                    html , css , js , php , laravel , api , mysql
+                  </p>
+                </div>
+              </div>
+
+
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <!-- <span class="experience__line"></span> -->
+                </div>
+
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">CV</h3>
+                  <span class="experience__company"
+                    >From 8/09/2022 to 9/09/2022 |</span
+                  >
+                  <p class="experience__description">
+                    <!-- Work in this company dedicating the best responsibility in
+                    the area that corresponds. -->
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- LANGUAGES -->
+          <section class="languages section">
+            <h2 class="section-title">Languages</h2>
+
+            <div class="languages__container">
+              <ul class="languages__content bd-grid">
+                <li class="languages__name">
+                  <span class="languages__circle"></span> Arabic(Mother tongue )
+                </li>
+                <li class="languages__name">
+                  <span class="languages__circle"></span> Good command of English  spoken & written
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <!-- INTERESTS -->
+          <section class="interests section">
+            <h2 class="section-title">Interests</h2>
+
+            <div class="interests__container bd-grid">
+              <div class="interests_content">
+                <i class="bx bx-headphone interests__icon"></i>
+                <span class="interests__name">Music</span>
+              </div>
+              <div class="interests_content">
+                <i class="bx bxs-analyse interests__icon"></i>
+                <span class="interests__name">Analysis</span>
+              </div>
+              <div class="interests_content">
+                <i class="bx bx-book interests__icon"></i>
+                <span class="interests__name">Read</span>
+              </div>
+              <div class="interests_content">
+                <i class="bx bx-basketball interests__icon"></i>
+                <span class="interests__name">Sports</span>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <!-- SCROLL TOP -->
+    <a href="#" class="scrolltop" id="scroll-top">
+      <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
+    </a>
+
+ 
+    <!-- MAIN JS -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
